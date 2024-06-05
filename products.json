@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Математика",
+        "img": "mat.jpg",
+        "descr": "йоу"
+    },
+    {
+        "id": 2,
+        "title": "Русский язык",
+        "img": "rus.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Физика",
+        "img": "angl.png"
+    },
+    {
+        "id": 4,
+        "title": "Английский",
+        "img": "angl.png"
+    },
+    {
+        "id": 5,
+        "title": "Биология",
+        "img": "biolog.jpg"
+    }
+]
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="/css/Profil.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <a href="/html/profil.html"><button>Профиль</button></a>
+            <a href="/html/LichKab.html"><button>Личный кабинет</button></a>
+        </div>
+        <div class="header-right">
+            <button id="helpBtn">Справка</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-container1">
+            <h1>Профиль</h1>
+                <div class="profile-container">
+                <div class="column">
+                    <h2>Портрет</h2>
+                    <img src="/images/rebenok.jpg" alt="Портрет">
+                </div>
+                <div class="column">
+                    <h2>Информация о пользователе</h2>
+                    <div class="spisok">
+                    <p><strong>Имя:</strong> Вася</p>
+                    <p><strong>Фамилия:</strong> Пупкин</p>
+                    <p><strong>Отчество:</strong> Иванович</p>
+                    <p><strong>Класс:</strong> 7б</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Название компании разработчиков</p>
+    </div>
+
+    <div id="notification" class="notification">
+        <p>Это ваш личный кабинет, вы можете отредактировать его.</p>
+    </div>
+
+    <script>
+        document.getElementById("helpBtn").addEventListener("click", function() {
+            document.getElementById("notification").style.display = "block";
+        });
+    </script>
+</body>
+
+</html>

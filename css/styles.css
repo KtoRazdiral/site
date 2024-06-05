@@ -1,0 +1,23 @@
+@font-face { 
+  font-family: "ProRegular"; 
+  src: url("../fonts/AnonymousPro-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+@font-face { 
+  font-family: "ProBold"; 
+  src: url("../fonts/AnonymousPro-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+h1 {
+    font-family: "ProBold", sans-serif;
+    letter-spacing: 3px;
+}
+
+p, h2, h3, h4, h5, button{
+    font-family: "ProRegular", sans-serif;
+    letter-spacing: 1px;
+}
+

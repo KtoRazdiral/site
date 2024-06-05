@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Сложение",
+        "img": "mat.jpg",
+        "descr": "йоу"
+    },
+    {
+        "id": 2,
+        "title": "Вычитание",
+        "img": "rus.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Умножение",
+        "img": "angl.png"
+    },
+    {
+        "id": 4,
+        "title": "Деление",
+        "img": "angl.png"
+    },
+    {
+        "id": 5,
+        "title": "Биология",
+        "img": "biolog.jpg"
+    }
+]
+

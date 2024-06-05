@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сложение</title>
+    <link rel="stylesheet" href="/css/LichKab.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+   
+<body>
+    <header class="header">
+        <div class="header-left">
+            <a href="/html/profil.html"><button>Профиль</button></a>
+            <a href="/html/LichKab.html"><button>Личный кабинет</button></a>
+        </div>
+        <div class="header-right">
+            <button id="helpBtn">Справка</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-container1">
+            <h1>Сложение и вычитание</h1>
+            <h2>Тесты и тренажоры:</h2>
+                <div class="profile-container">  
+                    <div class="column">
+                         <a href="/html/Test.html"><button class="cube"> 
+                            <div class="cubeCon"> 
+                                <div class="cubeImg"> 
+                                    <img src="/images/fon.jpg">
+                                </div>
+                                <div class="cubeText"> 
+                                    <h4> Контрольный тест </h4>
+                                </div>
+                            </div>
+                             </button></a>
+                    </div>
+                    <div class="column">
+                        <button class="cube"> 
+                            <div class="cubeCon"> 
+                                <div class="cubeImg"> 
+                                    <img src="/images/fon.jpg">
+                                </div>
+                                <div class="cubeText"> 
+                                    <h4> Тренажор </h4>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="column">
+                        <button class="cube"> 
+                            <div class="cubeCon"> 
+                                <div class="cubeImg"> 
+                                    <img src="/images/fon.jpg">
+                                </div>
+                                <div class="cubeText"> 
+                                    <h4> Итоговый тест </h4>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>&copy; Название компании разработчиков</p>
+    </div>
+
+    <div id="notification" class="notification">
+        <p>Это ваш личный кабинет, вы можете отредактировать его.</p>
+    </div>
+    
+    <script>
+        document.getElementById("helpBtn").addEventListener("click", function() {
+            document.getElementById("notification").style.display = "block";
+        });
+    </script>
+    <script src="/js/dial.js"></script>
+    
+</body>
+
+</html>

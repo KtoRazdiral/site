@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /*светло-голубой цвет*/
+    
+    background: url(/images/fon2.svg);
+    background-repeat: repeat;
+    background-size: 160%;
+}
+
+.header {
+    background-color: #1C7ECC; /*светло-серый цвет*/
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header button {    
+    background-color: #fff; /*белый цвет*/
+    color: #000; /*черный цвет*/
+    border: 2px solid #000; /*черная рамка*/
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: %;
+    height: %;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.profile-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;    
+    flex-wrap: wrap;
+    padding: 3%;
+    padding-top: 1%;
+}
+
+.profile-container1 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.profile-container1 h2 {
+    display: flex;
+    padding-left: 5%;
+}
+
+.profile-container1 .RedaktorBut {
+    background-color: #fff; /*белый цвет*/
+    color: #000; /*черный цвет*/
+    border: 2px solid #000; /*черная рамка*/
+    padding: 10px 20px;
+    margin: 2%;
+    border-radius: 3px;
+    cursor: pointer;
+    width: %;
+    height: %;
+    border-radius: 50px;
+    font-size: 1em;
+}
+
+.cube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 256px;
+    height: 200px;
+    background-color: lightblue;
+    border-radius: 10%; 
+}
+
+.cubeCon {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    align-items: center;
+}
+
+.cubeCon .cubeImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cubeCon .cubeImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.cubeCon .cubeText {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin: 1%;
+    letter-spacing: 5px;
+}
+
+h4 {
+    text-align: left;
+    width: 100%;
+    height: 50%;
+    padding-left: 3%;
+}
+
+
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 0% 0% 2% 0%
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+
+.spisok {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer {
+    background-color: #333; /*темно-серый цвет*/
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+}
+
+
+dialog {
+    width: 31%;
+    height: 32%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;		  
+    background: lightblue;
+    border: none;
+    border-radius: 1rem;
+}
+
+.dialogCon {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5%;
+    padding: 
+}
+
+.dialogCon h1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dialogCon h3 {
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+.dialogCon button {
+    background-color: #FF7B7B; 
+    color: #fff; 
+    border: 0px solid #000; /*черная рамка*/
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 2%;
+    box-shadow: none;
+}
+
+.dialogCon .dobavka {
+    background-color: #1C7ECC; 
+    color: #fff; 
+    border: 0px solid #000; /*черная рамка*/
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 2%;
+    box-shadow: none;
+}
+
+.vvod {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 2%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+

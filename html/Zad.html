@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задания</title>
+    <link rel="stylesheet" href="/css/zad.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button>Профиль</button>
+            <button>Личный кабинет</button>
+            <button>Контрольные тесты</button>
+            <button>Задания</button>
+            <button>Итоговые тесты</button>
+        </div>
+        <div class="header-right">
+            <button id="helpBtn">Справка</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="profile-container1">
+            <h1>Задания</h1>
+       
+                <div class="profile-container">  
+                    <div class="column">
+                        <div class="cube"><h2>Тема "A"</h2></div>
+                    </div>
+
+                    <div class="column">
+                          <div class="cube"><h2>Тема "B"</h2></div>
+                    </div>
+
+                    <div class="column">
+                        <div class="cube"><h2>Тема "C"</h2></div>
+                    </div>
+                    
+                     <div class="column">
+                        <div class="cube"><h2>Тема "D"</h2></div>
+                    </div>
+                    
+                     <div class="column">
+                        <div class="cube"><h2>Тема "E"</h2></div>
+                    </div>
+                    
+                     <div class="column">
+                        <div class="cube"><h2>Тема "F"</h2></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>&copy; Название компании разработчиков</p>
+    </div>
+
+    <div id="notification" class="notification">
+        <p>Это ваш личный кабинет, вы можете отредактировать его.</p>
+    </div>
+
+    <script>
+        document.getElementById("helpBtn").addEventListener("click", function() {
+            document.getElementById("notification").style.display = "block";
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/css/vhod2.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="login-box">
+            <h1>Вход</h1>
+            <div class="fgf">
+                <div>
+                    <input type="text" placeholder="Логин">
+                    <input type="password" placeholder="Пароль">
+                </div>
+                <a href="/html/LichKab.html"><button>Войти</button></a>
+            </div>
+        </div>
+        <button id="helpButton">Справка</button>
+    </div>
+    
+
+    <script>
+        document.getElementById("helpButton").addEventListener("click", function() {
+            document.getElementById("helpNotification").style.display = "block";
+        });
+
+        document.getElementsByClassName("close")[0].addEventListener("click", function() {
+            document.getElementById("helpNotification").style.display = "none";
+        });
+    </script>
+</body>
+    <footer>
+        <p>&copy; Информация о сайте</p>
+    </footer>
+</html>
